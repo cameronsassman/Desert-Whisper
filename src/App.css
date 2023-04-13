@@ -2,6 +2,23 @@
   text-align: center;
 }
 
+.card {
+  flex: 1;
+
+  /*Style for presentation purpose*/
+  font-family: 'calibri';
+  border: 1px solid #ccc; 
+  background: #fff;
+  margin: 12px;
+  padding: 12px
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
